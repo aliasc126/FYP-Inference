@@ -24,7 +24,7 @@ def main():
     Network = 229940
     
     # read the malicious.csv file
-    df = pd.read_csv('../MLOPS-Pipeline/youtube data.csv', low_memory=False)
+    df = pd.read_csv('../MLOPS-Pipeline/youtube-data.csv', low_memory=False)
     # drop the column malicious
     df = df.drop('malicious', axis=1)
     # remove the column pid from both dataframes
